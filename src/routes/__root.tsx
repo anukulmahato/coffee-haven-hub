@@ -84,6 +84,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "A neighborhood coffee house — slow-roasted beans, hand-poured espresso, warm pastries." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Hearth & Bean" },
+      { name: "twitter:description", content: "A neighborhood coffee house — slow-roasted beans, hand-poured espresso, warm pastries." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d9255627-2e05-4e98-9c67-ba062ae14338/id-preview-8dbc27b8--38498255-ba4d-4491-a8c1-41413bfb4e81.lovable.app-1782325362685.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d9255627-2e05-4e98-9c67-ba062ae14338/id-preview-8dbc27b8--38498255-ba4d-4491-a8c1-41413bfb4e81.lovable.app-1782325362685.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
