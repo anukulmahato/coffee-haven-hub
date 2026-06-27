@@ -1,0 +1,25 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "anukul-hub-pro",
+	"main": "./dist/server/server.js",
+	// Set this to today's date
+	"compatibility_date": "2026-06-24",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"assets": {
+		"directory": "./dist/client",
+		"binding": "ASSETS"
+	},
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "cafe_db",
+			"database_name": "cafe-db",
+			"database_id": "9d3f0847-99e9-44aa-9e27-2b239c8cf377",
+			"remote": true
+		}
+	]
+}
