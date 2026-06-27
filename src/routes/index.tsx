@@ -44,7 +44,7 @@ function Landing() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-cream/40 bg-transparent text-cream hover:bg-cream/10 hover:text-cream">
-              <a href="#visit">Visit the shop</a>
+              <a href="#visit">Visit the shop Pagee</a>
             </Button>
           </div>
         </div>
